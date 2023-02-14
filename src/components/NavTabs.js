@@ -1,7 +1,9 @@
 import React from 'react';
+// import HeaderDiv from './Header';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
+      <nav>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -40,6 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </nav>
     )}
 
 export default NavTabs;
