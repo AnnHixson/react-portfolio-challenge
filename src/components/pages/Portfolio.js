@@ -3,22 +3,51 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h2>Portfolio</h2>
+      <div>
+        <article class="special">
+          <a href="https://thelemmonade.github.io/project-whatch/">                            
+            <img src="./images/project-whatch.png" alt="project whatch application preview" />
+            <h3>Project-Whatch</h3>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="https://obscure-shore-43973.herokuapp.com/">                         
+            <img src="./images/curious-appetite-screenshot.png" alt="curious appetite application preview" />
+            <h3>Curious Appetite</h3>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="https://annhixson.github.io/module-1-challenge/">                            
+            <img src="./images/annhixson.github.io_module-1-challenge_.png" alt="module 1 challenge application preview" />
+            <h3>Module 1 Challenge</h3>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="#">                           
+            <img src="./images/Spider-Man 2.jpg" alt="Spider-man in front of a rainbow flag" />
+            <h3>Placeholder</h3>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="#">                           
+            <img src="./images/Spider-Man 5.jpg" alt="Spider-man swinging through New York" />
+            <h3>Placeholder</h3>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="#">                           
+            <img src="./images/Spider-Man 5.jpg" alt="Spider-man swinging through New York" />
+            <h3>Placeholder</h3>
+          </a>
+        </article>
+        
+      </div>
     </div>
   );
 }
