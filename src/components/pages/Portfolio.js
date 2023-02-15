@@ -4,8 +4,8 @@ export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div>
-        <article class="special">
+      <div id='my-work'>
+        <article class="card">
           <a href="https://thelemmonade.github.io/project-whatch/">                            
             <img src="./images/project-whatch.png" alt="project whatch application preview" />
             <h3>Project-Whatch</h3>
@@ -27,21 +27,21 @@ export default function Portfolio() {
         </article>
 
         <article class="card">
-          <a href="#">                           
+          <a href="https://github.com/AnnHixson">                           
             <img src="./images/Spider-Man 2.jpg" alt="Spider-man in front of a rainbow flag" />
             <h3>Placeholder</h3>
           </a>
         </article>
 
         <article class="card">
-          <a href="#">                           
+          <a href="https://github.com/AnnHixson">                           
             <img src="./images/Spider-Man 5.jpg" alt="Spider-man swinging through New York" />
             <h3>Placeholder</h3>
           </a>
         </article>
 
         <article class="card">
-          <a href="#">                           
+          <a href="https://github.com/AnnHixson">                           
             <img src="./images/Spider-Man 5.jpg" alt="Spider-man swinging through New York" />
             <h3>Placeholder</h3>
           </a>

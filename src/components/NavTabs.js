@@ -1,5 +1,4 @@
 import React from 'react';
-// import HeaderDiv from './Header';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
